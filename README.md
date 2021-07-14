@@ -1,7 +1,7 @@
 # Simplest Grid
 Simplest, lightweight 12-column CSS grid. Based on Zach Cole's [Simple Grid](https://github.com/zachacole/Simple-Grid). 
 
-![simplest grid demo](demo.png "Simplest Grid Demo")
+![simplest grid demo](_demo.png "Simplest Grid Demo")
 
 ## Example
 ```html
