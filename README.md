@@ -8,13 +8,13 @@ Simple, lightweight 12-column CSS grid. Based on Zach Cole's [Simple Grid](https
   <div class="row">
     <!-- Each row will take up 100% of its container's width -->
     <div class="col-3">
-      <!-- This content will take up 3/12 of the row -->
+      <!-- col-3 will take up 3/12 of its row -->
     </div>
     <div class="col-3">
-      <!-- This content will take up 3/12 of the row -->
+      <!-- col-3 will take up 3/12 of its row -->
     </div>
     <div class="col-6">
-      <!-- This content will take up 6/12 of the row -->
+      <!-- col-6 will take up 6/12 of its row -->
     </div>
   </div>
 </div>
