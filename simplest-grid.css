@@ -31,19 +31,8 @@ body {
 
 .row {
   position: relative;
+  display: inline-block;
   width: 100%;
-}
-
-.row [class^="col"] {
-  float: left;
-  padding: 0.5rem;
-  min-height: 0.5rem;
-}
-
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .col-1,
@@ -59,9 +48,15 @@ body {
 .col-11,
 .col-12 {
   width: 100%;
+  padding: 0.5rem;
 }
 
-@media only screen and (min-width: 45em) { /* 720px */
+@media only screen and (min-width: 45em) { 
+  /* 720px - Desktop */
+  .row {
+    display: flex;
+  }
+
   .col-1 {
     width: 8.33%;
   }
